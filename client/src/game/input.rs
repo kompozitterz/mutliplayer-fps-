@@ -133,10 +133,10 @@ impl InputHandler {
 
     fn handle_key(&mut self, key: KeyCode, pressed: bool) -> bool {
         match key {
-            KeyCode::W => {
+            KeyCode::Z => {
                 self.state.forward = pressed;
             }
-            KeyCode::A => {
+            KeyCode::Q => {
                 self.state.left = pressed;
             }
             KeyCode::S => {
