@@ -1,5 +1,10 @@
 ***Start server***
 
+<video width="640" height="360" controls>
+  <source src="assets/capture_1.mov" type="video/mp4">
+  Votre navigateur ne supporte pas la balise vidéo.
+</video>
+
 ```sh
 /client/ cargo run --release --bin server 
 ```
