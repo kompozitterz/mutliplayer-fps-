@@ -6,7 +6,7 @@
 </video>
 
 ```sh
-/client/ cargo run --release --bin server 
+/server/ cargo run --release --bin server 
 ```
 
 ***Recupération de l adresse ip***
